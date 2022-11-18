@@ -20,5 +20,5 @@ class Task(models.Model):
   description = models.TextField()
   status = models.CharField(max_length=50, choices=statusList)
   
-  def __repr__(self):
+  def __str__(self):
     return f'{self.title} - {self.status}'
