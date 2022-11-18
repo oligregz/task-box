@@ -3,7 +3,7 @@ from django.db import models
 class Board(models.Model):
   title = models.CharField(max_length=50)
   
-class Tasks(models.Model):
+class Task(models.Model):
   statusList = [
     ("Pending","Pending"),
     ("Doing","Doing"),
