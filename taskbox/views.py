@@ -1,4 +1,3 @@
-from django.shortcuts import render
 from .models import Board, Task
 from .serializer import BoardSerializer, TaskSerializer
 from rest_framework import viewsets
